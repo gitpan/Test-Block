@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.38.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 add18ff4b8653c55735db3255177dacc92997fb3 Build.PL
+SHA1 f4d1a9c47862b78cd98b8b53d4cca679ef290518 Changes
+SHA1 752b4aeb0cd6bafe68fe336d7145d9d973b6d281 MANIFEST
+SHA1 3f62d29f08d9df48d9d6e277005147d1e32de477 META.yml
+SHA1 e3527527bc6011b5eea8ffeaa7d78a1cc9768711 Makefile.PL
+SHA1 26ae7501fe592b194c39dff10b27e3513cee5269 README
+SHA1 947e5ec552b25fe4c5c787ecc159be0d67990094 lib/Test/Block.pm
+SHA1 85dab1f4d9de44c11a5a9a53e3e1446e85f4288f t/all_in_block.t
+SHA1 cfc31858aa5a29d26188164035b5196cb95dc5a9 t/bad_args.t
+SHA1 ae08f2d9b9db22b31bb23fbade3535d22d1b7ccf t/block.t
+SHA1 1687a4882e482fef0ae8cd235ce22601882e5b3d t/class_methods.t
+SHA1 25aa24dfd1937dd53b6da7b424c1c957a714ce61 t/documented.t
+SHA1 b7a0fa2de87491f33d45705bdc5e0cf5110b7aba t/import.t
+SHA1 137ee8f3570f25bc7f2ddc40069c3d946be16d3e t/pod.t
+SHA1 f462d561d6ae9cd1b570bd1d46ccaeabddd72e2d t/signature.t
+SHA1 1c70a2751bb7c708787451bef1d561e3d0ed584f t/variable.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (Darwin)
+
+iD8DBQFAf/p8ItcXmLGUYSsRAhApAKCc6k0/j1EukgvQjGuepWFuW7NR8wCgh56b
+hvylJutQt2ThgYJcuN36yYo=
+=suol
+-----END PGP SIGNATURE-----
