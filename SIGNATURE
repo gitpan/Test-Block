@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.38.
+signed via the Module::Signature module, version 0.41.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,13 +14,13 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 add18ff4b8653c55735db3255177dacc92997fb3 Build.PL
-SHA1 f4d1a9c47862b78cd98b8b53d4cca679ef290518 Changes
-SHA1 752b4aeb0cd6bafe68fe336d7145d9d973b6d281 MANIFEST
-SHA1 3f62d29f08d9df48d9d6e277005147d1e32de477 META.yml
-SHA1 e3527527bc6011b5eea8ffeaa7d78a1cc9768711 Makefile.PL
+SHA1 7abb24af717f42003ef080edf2c5eb0b8af7c50f Build.PL
+SHA1 177be4a515ce7964ad266deb7ecaafe8888ce92c Changes
+SHA1 158ab226d7ece7b5e1a4b4469faadfb51a20df98 MANIFEST
+SHA1 0d158e318e07817e2c2e58c0fed7c8ca059a82ee META.yml
+SHA1 819fafddcba13b28dc5051550e61873d08ed14ab Makefile.PL
 SHA1 26ae7501fe592b194c39dff10b27e3513cee5269 README
-SHA1 947e5ec552b25fe4c5c787ecc159be0d67990094 lib/Test/Block.pm
+SHA1 d8c2fc8e6ebbfa45961b4e8f9f9155f25c782f3e lib/Test/Block.pm
 SHA1 85dab1f4d9de44c11a5a9a53e3e1446e85f4288f t/all_in_block.t
 SHA1 cfc31858aa5a29d26188164035b5196cb95dc5a9 t/bad_args.t
 SHA1 ae08f2d9b9db22b31bb23fbade3535d22d1b7ccf t/block.t
@@ -33,7 +33,7 @@ SHA1 1c70a2751bb7c708787451bef1d561e3d0ed584f t/variable.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.2.4 (Darwin)
 
-iD8DBQFAf/p8ItcXmLGUYSsRAhApAKCc6k0/j1EukgvQjGuepWFuW7NR8wCgh56b
-hvylJutQt2ThgYJcuN36yYo=
-=suol
+iD8DBQFA/DJwaOJcDd+05vARAo1ZAJoDSRjMFJOO1Bl5GHpsrB2Cbjz9tQCePPMe
+KeuhXrmfOWLbdEH1VRT3WuU=
+=tXdn
 -----END PGP SIGNATURE-----

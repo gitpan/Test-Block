@@ -10,7 +10,7 @@ WriteMakefile
                            'Test::More' => '0.47',
                            'Test::Exception' => '0.15',
                            'Test::Builder' => '0.17',
-                           'Test::Builder::Tester' => '0.09'
+                           'Test::Builder::Tester' => '1.01'
                          }
         )
 ;

@@ -5,7 +5,6 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
-SIGNATURE
 t/all_in_block.t
 t/bad_args.t
 t/block.t
