@@ -1,5 +1,19 @@
 Revision history for Perl extension Test::Block.
 
+0.09
+    -   Moved stuff from build_requires to requires so it works with
+        CPANPLUS
+    -   Added COMMUNITY section to POD
+    -   Removed a bogus UNIVERSAL::isa just in case somebody wants to 
+        subclass nicely
+    -   Tidied code a little
+    -   Stopped Test::Block accepting some bad plans
+    -   Added Test::Class to SEE ALSO section
+    -   Added link to tada list to the TO DO section of the POD
+
+0.08
+    -   Cosmetic changes to POD
+
 0.07
     -   Requires Test::Builder::Tester 1.01 so tests will pass with
         Test::Simple 0.48.

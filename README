@@ -1,5 +1,5 @@
 NAME
-    Test::Block - specify fine granularity test plans
+    Test::Block - Specify fine granularity test plans
 
 SYNOPSIS
       use Test::More 'no_plan';
@@ -170,11 +170,35 @@ BUGS
     If you find any please let me know by e-mail, or report the problem with
     <http://rt.cpan.org/>.
 
-TO DO
-    Nothing at the time of writing.
+COMMUNITY
+    perl-qa
+        If you are interested in testing using Perl I recommend you visit
+        <http://qa.perl.org/> and join the excellent perl-qa mailing list.
+        See <http://lists.perl.org/showlist.cgi?name=perl-qa> for details on
+        how to subscribe.
 
-    If you think this module should do something that it doesn't do at the
-    moment please let me know.
+    perlmonks
+        You can find users of Test::Block, including the module author, on
+        <http://www.perlmonks.org/>. Feel free to ask questions on
+        Test::Block there.
+
+    CPAN::Forum
+        The CPAN Forum is a web forum for discussing Perl's CPAN modules.
+        The Test::Block forum can be found at
+        <http://www.cpanforum.com/dist/Test-Block>.
+
+    AnnoCPAN
+        AnnoCPAN is a web site that allows community annotations of Perl
+        module documentation. The Test::Block annotations can be found at
+        <http://annocpan.org/~ADIE/Test-Block/>.
+
+TO DO
+    If you think this module should do something that it doesn't (or does
+    something that it shouldn't) please let me know.
+
+    You can see my current to do list at
+    <http://adrianh.tadalist.com/lists/public/15423>, with an RSS feed of
+    changes at <http://adrianh.tadalist.com/lists/feed_public/15423>.
 
 ACKNOWLEGEMENTS
     Thanks to chromatic and Michael G Schwern for the excellent
@@ -198,11 +222,15 @@ SEE ALSO
     Test::Simple & Test::More
         Basic utilities for writing tests.
 
+    Test::Class
+        Test::Class is an xUnit testing framework for Perl. It allows you to
+        specify the number of test run in each method.
+
     <http://qa.perl.org/test-modules.html>
         Overview of some of the many testing modules available on CPAN.
 
 LICENCE
-    Copyright 2003-2004 Adrian Howard, All Rights Reserved.
+    Copyright 2003-2005 Adrian Howard, All Rights Reserved.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

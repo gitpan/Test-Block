@@ -1,25 +1,21 @@
---- #YAML:1.0
+---
 name: Test-Block
-version: 0.07
+version: 0.09
 author:
   - Adrian Howard <adrianh@quietstars.com>
-  - ! >-
-    If you can spare the time, please drop me a line if you find this module
-    useful.
-abstract: specify fine granularity test plans
+abstract: Specify fine granularity test plans
 license: perl
 requires:
-  perl: 5.6.1
-build_requires:
   Test::Builder: 0.17
   Test::Builder::Tester: 1.01
   Test::Exception: 0.15
   Test::More: 0.47
+  perl: 5.6.1
 provides:
   Test::Block:
     file: lib/Test/Block.pm
-    version: 0.07
+    version: 0.09
   Test::Block::Plan:
     file: lib/Test/Block.pm
-    version: 0.07
-generated_by: Module::Build version 0.25
+    version: 0.09
+generated_by: Module::Build version 0.2611

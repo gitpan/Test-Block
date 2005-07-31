@@ -1,12 +1,12 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.41.
+signed via the Module::Signature module, version 0.44.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
@@ -14,15 +14,15 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 7abb24af717f42003ef080edf2c5eb0b8af7c50f Build.PL
-SHA1 177be4a515ce7964ad266deb7ecaafe8888ce92c Changes
-SHA1 158ab226d7ece7b5e1a4b4469faadfb51a20df98 MANIFEST
-SHA1 0d158e318e07817e2c2e58c0fed7c8ca059a82ee META.yml
+SHA1 b0e6350cf413d000ed7456ae7a0e45faa2283091 Build.PL
+SHA1 c5a63d0b6317e4c7416cfc7b609dc4a9a6d7bd39 Changes
+SHA1 50d227777cb1d159468f7d3b7801d9d4f313d0c8 MANIFEST
+SHA1 444a236722b2a17fae6209a7e24e71204b73d444 META.yml
 SHA1 819fafddcba13b28dc5051550e61873d08ed14ab Makefile.PL
-SHA1 26ae7501fe592b194c39dff10b27e3513cee5269 README
-SHA1 d8c2fc8e6ebbfa45961b4e8f9f9155f25c782f3e lib/Test/Block.pm
+SHA1 4fbf43329c997e8995a6599125d3ad5e42f6cd7e README
+SHA1 1f313e9c33b4da172df43424c4b3214c0d5ee99f lib/Test/Block.pm
 SHA1 85dab1f4d9de44c11a5a9a53e3e1446e85f4288f t/all_in_block.t
-SHA1 cfc31858aa5a29d26188164035b5196cb95dc5a9 t/bad_args.t
+SHA1 5b3e1bb0af0b069573b4466d1c2b610323bffe0e t/bad_args.t
 SHA1 ae08f2d9b9db22b31bb23fbade3535d22d1b7ccf t/block.t
 SHA1 1687a4882e482fef0ae8cd235ce22601882e5b3d t/class_methods.t
 SHA1 25aa24dfd1937dd53b6da7b424c1c957a714ce61 t/documented.t
@@ -31,9 +31,9 @@ SHA1 137ee8f3570f25bc7f2ddc40069c3d946be16d3e t/pod.t
 SHA1 f462d561d6ae9cd1b570bd1d46ccaeabddd72e2d t/signature.t
 SHA1 1c70a2751bb7c708787451bef1d561e3d0ed584f t/variable.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.4 (Darwin)
+Version: GnuPG v1.4.1 (Darwin)
 
-iD8DBQFA/DJwaOJcDd+05vARAo1ZAJoDSRjMFJOO1Bl5GHpsrB2Cbjz9tQCePPMe
-KeuhXrmfOWLbdEH1VRT3WuU=
-=tXdn
+iD8DBQFC7SeUaOJcDd+05vARAjWEAJsFcVzG8ysK6juSooDUwPf9ZKDOsgCfeDQI
+MGyX9gW6xsffQFm6FJ2IogM=
+=M8Xm
 -----END PGP SIGNATURE-----
