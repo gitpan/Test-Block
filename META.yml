@@ -1,6 +1,6 @@
 ---
 name: Test-Block
-version: 0.09
+version: 0.10
 author:
   - Adrian Howard <adrianh@quietstars.com>
 abstract: Specify fine granularity test plans
@@ -14,8 +14,8 @@ requires:
 provides:
   Test::Block:
     file: lib/Test/Block.pm
-    version: 0.09
+    version: 0.10
   Test::Block::Plan:
     file: lib/Test/Block.pm
-    version: 0.09
+    version: 0.10
 generated_by: Module::Build version 0.2611
